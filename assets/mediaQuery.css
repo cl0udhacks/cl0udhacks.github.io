@@ -1,0 +1,187 @@
+@media only screen and (max-width: 800px) {
+    .phone-number{
+        display:none;
+    }
+    .over {
+        content: "";
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        transform-origin: left;
+        top: 0;
+        z-index: 9999;
+        transition: 4s ease-in-out;
+        background-color: black;
+        opacity: .5;
+        width: 30%;
+
+    }
+
+  .left-content{
+    width:100% !important;
+  }
+  .right-content{
+    width:100% !important;
+  }
+    .hero-text {
+        padding-top: 2rem !important;
+    }
+
+    .hero-text h1 {
+        font-size: 35px !important;
+    }
+    .hero-text h2{
+        line-height: 30px!important;
+    }
+    .hero-text h3{
+        line-height: 28px!important;
+    }
+.hero-text .buttons{
+    margin-top: .5rem;
+}
+.hero-text button{
+margin:0;
+}
+    .banne {
+        height: 450px;
+    }
+
+    .menu ul:before {
+        opacity: 0;
+    }
+
+    .menu ul:after {
+        opacity: 0;
+    }
+
+    nav #bar {
+        display: block !important;
+        bottom: 0;
+    }
+
+    nav {
+        padding: 2.5rem 2rem;
+    }
+
+    ul {
+        padding: 7rem 2rem;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .menu {
+        width:80%!important;
+        position: fixed;
+        height: 100%;
+        top: 0;
+        transition: 2s ease-in-out;
+        right: -15000px;
+        background-colo: rgb(207, 205, 205) !important;
+        background-color:rgb(255, 255, 255) !important;
+    }
+
+    ul li a {
+        font-size: 22px;
+    }
+
+    .logo {
+padding-bottom:1re;
+        width: 80% !important;
+        text-align: center;
+    }
+section{
+    padding:2rem 0 !important;
+}
+.hero-text{
+    top: 60%;
+    left: 0% !important;
+    transform: translateY(-60%) !important;
+    padding-right:1rem !important;
+    padding-left:1rem !important;
+}
+.about-us-container{
+    padding-top:3rem!important;
+}
+.hero-text h3{
+    font-size: 16px !important;
+}
+.hero-text{
+    text-align: center !important;
+}
+.hero-text h1{
+    line-height: 60px !important;
+}
+.call-us a {
+    font-size: 16px !important;
+}
+.about-us-container{
+    padding: 0 1rem;
+}
+.about-us h2{
+    font-size: 20px !important;
+}
+.about-us p{
+    line-height: 32px !important;
+}
+p{
+    font-size: 16px !important;
+}
+    ul li a {
+        color: grey;
+    }
+
+    .fact-box{
+        width:calc(100% - .5rem) !important;
+margin:1rem 0 !important;
+
+    }
+    .service-box{
+        width:calc(100% - .5rem) !important;
+        margin-bottom:1rem;
+    }
+    .service-box img{
+        width:300px !important;
+    }
+    .facts-container{
+        margin: 0 1rem;
+        padding-top:3rem !important;
+    }
+    section h1{
+        font-size: 28px !important;
+    }
+    .whatWe{
+        width:100% !important;
+        padding:2rem 1rem!important;
+        
+      }
+      .whoWe{
+        width:100% !important;
+        padding:2rem 1rem !important;
+      }
+      .call-us{
+        display:block!important;
+      }
+      .cyber-button{
+        padding-top:1rem!important;
+      }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 762px) {
+    .logo img {
+      width: 250px !important;
+      max-width: 100%;
+    }
+  }
+  
+
+@media only screen and (max-width: 576px) {
+    .banner {
+        height: 350px;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+
+}
+
